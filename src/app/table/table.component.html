@@ -1,0 +1,59 @@
+<div class="row">
+    
+    <div class="col-6">
+    <table class="table text-center ">
+        <thead>
+          <tr>
+            <th>NO</th>
+      
+          <th>productName</th>
+         
+          <th>Add</th>
+          <th>totalprice</th>
+          <th>action</th>
+          </tr>
+        </thead>
+        <tbody  class="text-center">
+          <tr *ngFor="let list of setData;let i=index">  
+          <td>{{i+1}}</td>
+    
+            <td>{{list.productName}}</td>
+            <td>       <button (click)="decresae(list.count,i)" >-</button>
+              <span>{{list.count}}</span>
+              
+              <button (click)="incresae(list.count,i)">+</button></td>
+             
+            <td>{{list.totalprice}}</td>
+            <td>
+              <i class="fa-solid fa-eye-slash" (click)="removeData(i)"></i>     
+            </td>
+          </tr>
+        </tbody>
+
+      </table>
+    </div>
+      <div class="col-6">
+    <div class="row">
+          <div class="col-3 ">
+            Total:
+            <br>
+            Gst:
+                 <br>
+            TotalPrice:
+          </div>
+          <div class="col-6 text-left" >
+            {{Total}}
+            <br>
+            {{Gst}}
+            <br>
+            {{TotalPrice}}
+          </div>
+          </div>
+    
+          <button class="btn btn-outline-success" (click)="in()">
+            Submit
+          </button>
+        
+    
+      </div>
+      </div>

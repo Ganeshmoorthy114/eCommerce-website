@@ -1,0 +1,36 @@
+[
+    {
+        "productId": 1,
+        "fruits": "ORGANICS",
+        "image":"assets/images/orange.png"
+    },
+
+    {
+        "productId": 2,
+        "fruits": "CHOCOLATE",
+        "image":"assets/images/freshfruit.png"
+    },
+
+    {
+        "productId": 3,
+        "fruits": "FRESH FRUIT",
+        "image":"assets/images/fastfood.png"
+    },
+
+    {
+        "productId": 4,
+        "fruits": "MEAT & PROTEIN",
+        "image":"assets/images/choclate.png"
+    },
+
+    {
+        "productId": 5,
+        "fruits": "MILK & DRINK",
+        "image":"assets/images/meat.png"
+    },
+
+    {
+        "productId": 6,
+        "fruits": "FAST FOOD",
+        "image":"assets/images/milk.png"
+    }]

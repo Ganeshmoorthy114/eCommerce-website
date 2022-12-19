@@ -1,0 +1,72 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  .body .hover:hover {
+    color: green;
+  }
+  .body .hover{
+    list-style: none;
+  }
+  h6{
+    color: rgb(58, 212, 58);
+  }
+  .checked {
+    color: orange;
+  }
+
+.padding{
+  padding: 0;
+}
+
+.jobs .item:hover {
+   border: 3px solid #44ec31;
+   border-radius: 5px;
+   /* margin: 0 6px 0 6px; */
+}
+
+.green{
+  background-color: #85B835;;
+}
+.width{
+  width: 110px;
+}
+.ml{
+  width: 110px;
+  margin-left: 50px;
+}
+
+.background{
+  background-image: url("http://magento2.magentech.com/themes/sm_marketnew/pub/media/wysiwyg/slidershow/home-26/item-2.jpg");
+  background-repeat: no-repeat;
+  height: 500px; 
+}
+.margin{
+    margin-left: 35px;
+}
+.top{
+  border-radius: 98px;
+  margin-left: 100px;
+}
+.meta{
+ margin-top: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.hover .h4{
+ position: absolute;
+  top: 30px;
+  z-index: -1;
+}
+.hover .h4:hover {
+  z-index: 6;
+}

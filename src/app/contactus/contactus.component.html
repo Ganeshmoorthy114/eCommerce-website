@@ -1,0 +1,58 @@
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1588823.096577863!2d143.87798700000002!3d-38.942942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1svi!2sus!4v1669699306234!5m2!1svi!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<div class="row">
+    <div class="col-3 pl">
+        <header>CONTACT US</header>
+        Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+
+Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat sed do eiusmod tempor incididunt ut labore dolore
+
+      <address>
+        123 Suspendis mattis, Sollicitudin District,
+        Accums Fringilla
+      </address>
+      <p>Email: support@domainstore.com</p>
+      <p>Hotline: 0123456789</p>
+    </div>
+    <div class="col-8 pl-2">
+        <form class="fieldset ml-3 mt-3" action="" [formGroup]="CustomerData">
+            <!-- [FormGroup]="CustomerData" -->
+                <div class="control mb-3">
+                    <input name="name" id="name" title="Name" (keyup)="myevent($event)" formControlName="name" placeholder="Name"  
+                    [ngClass]="{ 'is-invalid': add.name.touched && add.name.errors}">
+                    <li  class="none">{{type}}</li>
+                    <div class="text-danger" *ngIf="add.name.touched && add.name.errors">
+                        <span *ngIf="add.name.errors.required">Required</span>
+                      </div>
+                </div>
+
+                <div class="control mb-3 ">
+                    <input name="email" id="email" formControlName="email" title="Email" placeholder="Email" value=""   
+                    [ngClass]="{ 'is-invalid': add.email.touched && add.email.errors}">
+                    <div class="text-danger" *ngIf="add.email.touched && add.email.errors">
+                        <span *ngIf="add.email.errors.required">Required</span>
+                      </div>
+                </div>
+         
+                <div class="control mb-3">
+                    <input name="telephone" id="telephone" formControlName="telephone" title="telephone" placeholder="telephone"
+                    [ngClass]="{ 'is-invalid': add.telephone.touched && add.telephone.errors}">
+                    <div class="text-danger" *ngIf="add.telephone.touched && add.telephone.errors">
+                        <span *ngIf="add.telephone.errors.required">Required</span>
+                        
+                      </div>
+                </div>
+         
+            <div class="field comment mb-3">
+
+                  <textarea id="review" name="review" formControlName="review" rows="4" cols="50"
+                    [ngClass]="{ 'is-invalid': add.review.touched && add.review.errors}">
+                    </textarea>
+                 <div class="text-danger" *ngIf="add.review.touched && add.review.errors">
+                        <span *ngIf="add.review.errors.required">Required</span>
+                      </div>
+                      </div>
+
+            <button type="button" (click)="save()" class="btn btn-success">SEND MESSANGER</button>
+        </form>
+    </div>

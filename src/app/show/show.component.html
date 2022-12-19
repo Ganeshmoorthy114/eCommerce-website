@@ -1,0 +1,24 @@
+<div class="row mt-5">
+    <div class="col-5 border text-center">
+    
+      <img src="{{setData.image}}" width="250px" alt="">
+     
+      
+    </div>
+      <div  class="col-6 ">
+          <p class="mb-3">productName: {{setData.Name}}</p>
+          <p class="mb-3 price" >price: {{setData.price}}</p>
+          <!-- <label *ngIf="size">size :{{price}}</label> -->
+  <div class="mb-3">
+          <button (click)="incresae('minus')" >-</button>
+          <span >Qty:{{count}}</span>
+          <button (click)="incresae('add')">+</button>
+          <span >TotalPrice: {{totalprice}} </span>
+    </div>
+      
+  <br><button class="btn btn-outline-warning mr-3" (click)="AddtheCard()" >Add the Card</button>
+  <button class="btn btn-outline-success" (click)="buy()">Buy Now</button>
+  <p class="mt-3">Information:{{setData.paragraph}}</p>
+      </div>
+      
+      </div>

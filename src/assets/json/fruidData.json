@@ -1,0 +1,59 @@
+[
+    {
+        "productId": 1,
+        "fruits": "Natural New Season Set Fresh",
+        "price":255,
+        "image":"assets/images/delicious.jpg"
+    },
+    {
+        "productId": 2,
+        "fruits": "Hot Price Fruit Honey Pomelo",
+        "price":200,
+        "image":"assets/images/organic.jpg",
+        "paragraph":"The perfect recipe for a family game night! Appeals to a wide range of people. Created By National Parks. Parents who had traveled to every single National Park worked together with their board game designer son and created a game to inspire others and help families share their love of the National Parks."
+    },
+    {
+        "productId": 3,
+        "fruits": "New Crop Citrus Fruit Summer",
+        "price":355,
+        "image":"assets/images/Fastfood.jpg",
+        "paragraph":"The perfect recipe for a family game night! Appeals to a wide range of people. Created By National Parks. Parents who had traveled to every single National Park worked together with their board game designer son and created a game to inspire others and help families share their love of the National Parks."
+    },
+    {
+        "productId": 4,
+        "fruits": "Organic New Cheap Sweet Fresh",
+        "price":405,
+        "image":"assets/images/freshred.jpg",
+        "paragraph":"The perfect recipe for a family game night! Appeals to a wide range of people. Created By National Parks. Parents who had traveled to every single National Park worked together with their board game designer son and created a game to inspire others and help families share their love of the National Parks."
+    },
+    {
+        "productId": 5,
+        "fruits": "Fresh Red Fruits Box Quality",
+        "price":500,
+        "image":"assets/images/crop.jpg",
+        "paragraph":"The perfect recipe for a family game night! Appeals to a wide range of people. Created By National Parks. Parents who had traveled to every single National Park worked together with their board game designer son and created a game to inspire others and help families share their love of the National Parks."
+    },
+    {
+        "productId": 6,
+        "fruits": "Delicious Fresh Egypt Natural",
+        "price":255,
+        "image":"assets/images/healfresh.jpg",
+        "paragraph":"The perfect recipe for a family game night! Appeals to a wide range of people. Created By National Parks. Parents who had traveled to every single National Park worked together with their board game designer son and created a game to inspire others and help families share their love of the National Parks."
+    },
+
+    {
+        "productId": 7,
+        "fruits": "Quality Fresh Fruit TEJC Good",
+        "price":150,
+        "image":"assets/images/apple.jpg",
+        "paragraph":"The perfect recipe for a family game night! Appeals to a wide range of people. Created By National Parks. Parents who had traveled to every single National Park worked together with their board game designer son and created a game to inspire others and help families share their love of the National Parks."
+    },
+    {
+        "productId": 8,
+        "fruits": "Heal High Fresh Natural Fruit",
+        "price":255,
+        "image":"assets/images/meats.jpg",
+        "paragraph":"The perfect recipe for a family game night! Appeals to a wide range of people. Created By National Parks. Parents who had traveled to every single National Park worked together with their board game designer son and created a game to inspire others and help families share their love of the National Parks."
+    }
+]
+

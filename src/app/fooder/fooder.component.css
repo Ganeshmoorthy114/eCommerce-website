@@ -1,0 +1,28 @@
+.i i{
+    margin-left:10px;
+}
+li i{
+    color: green;
+}
+.fooder li{
+    font-size:  smaller;;
+}
+.black{
+    color: white;
+    background-color: black;
+}
+.mrt{
+    margin-top: 51px;
+}
+.fluid{
+    background-color: green;
+}
+.top{
+
+    position: relative;
+   top: 10px;
+   border-radius: 30px;
+}
+.bg{
+    background-color:  #85B835;;
+}

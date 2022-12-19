@@ -1,0 +1,36 @@
+[
+    {
+        "productId": 1,
+        "Name": "Washing Machines & Dryers",
+        "price":510,
+        "image":"assets/images/washing.jpg"
+    },
+    {
+        "productId": 2,
+        "Name": "Black Automatic Vacuum Cleaner",
+        "price":220,
+        "image":"assets/images/speaker.jpg",
+        "paragraph":"The perfect recipe for a family game night! Appeals to a wide range of people. Created By National Parks. Parents who had traveled to every single National Park worked together with their board game designer son and created a game to inspire others and help families share their love of the National Parks."
+    },
+    {
+        "productId": 3,
+        "Name": "New Crop Citrus Fruit Summer",
+        "price":100,
+        "image":"assets/images/headphone.jpg",
+        "paragraph":"The perfect recipe for a family game night! Appeals to a wide range of people. Created By National Parks. Parents who had traveled to every single National Park worked together with their board game designer son and created a game to inspire others and help families share their love of the National Parks."
+    },
+    {
+        "productId": 4,
+        "Name": "Apple iMac 2017 21.5-inch Retina 4K",
+        "price":400,
+        "image":"assets/images/i system.jpg",
+        "paragraph":"The perfect recipe for a family game night! Appeals to a wide range of people. Created By National Parks. Parents who had traveled to every single National Park worked together with their board game designer son and created a game to inspire others and help families share their love of the National Parks."
+    },
+    {
+        "productId": 5,
+        "Name": "Acer Aspire S24 All-In-One PC",
+        "price":500,
+        "image":"assets/images/i tv.jpg",
+        "paragraph":"The perfect recipe for a family game night! Appeals to a wide range of people. Created By National Parks. Parents who had traveled to every single National Park worked together with their board game designer son and created a game to inspire others and help families share their love of the National Parks."
+    }
+]

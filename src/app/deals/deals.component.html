@@ -1,0 +1,37 @@
+<div class="container-fluid">
+    <div class="contaier">
+        <div class="row">
+            <div class="col-4">
+                 <img src="https://magento2.magentech.com/themes/sm_marketnew/pub/media/wysiwyg/banner/extend-1.jpg" alt="">
+            </div>
+            <div class="col-4">
+          <img src="https://magento2.magentech.com/themes/sm_marketnew/pub/media/wysiwyg/banner/extend-2.jpg" alt="">
+            </div>
+            <div class="col-4">
+                <img src="https://magento2.magentech.com/themes/sm_marketnew/pub/media/wysiwyg/banner/extend-3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid mt-3 mb-3">
+      <div class="row mritem">
+        <div class="col-2 mtitem pt-3 pb-3" (click)="fruitlist(list.Name)" *ngFor="let list of list;let i=index;">
+          <img class="img-top " src="{{list.image}}" style="width: 11rem;">
+          <div class=" body text-center">
+            <li class="hover text-center"><b>{{list.Name}}</b></li>
+            <li class="hover text-center "><b>{{list.price}}</b></li>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            
+
+     <div>
+            <button (click)="fruitlist(list.Name)" class="btn btn-outline-success">Add Card Button</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
