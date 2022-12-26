@@ -19,6 +19,7 @@ import { DealsComponent } from './deals/deals.component';
 import { ShowComponent } from './show/show.component';
 import { UnderComponent } from './under/under.component';
 import { TableComponent } from './table/table.component';
+import { FormComponent } from './form/form.component';
 
 
 const routes: Routes = [
@@ -53,6 +54,7 @@ const routes: Routes = [
     ShowComponent,
     UnderComponent,
     TableComponent,
+    FormComponent,
   ],
   imports: [
     BrowserModule,
