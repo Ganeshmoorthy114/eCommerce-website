@@ -1,1 +1,56 @@
-<p>form works!</p>
+<form [formGroup]="data">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="" formControlName="name" value=""
+    [ngClass]="{ 'is-invalid': add.name.touched && add.name.errors}">
+                    <div class="text-danger" *ngIf="add.name.touched && add.name.errors">
+                        <span *ngIf="add.name.errors.required">Required</span>
+                      </div><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="" formControlName="Lastname" value=""
+    [ngClass]="{ 'is-invalid': add.Lastname.touched && add.Lastname.errors}">
+                    <div class="text-danger" *ngIf="add.Lastname.touched && add.Lastname.errors">
+                        <span *ngIf="add.Lastname.errors.required">Required</span>
+                      </div><br>
+    <label for="email">Email:</label><br>
+  <input type="email" id="email" formControlName="Email" name="email"
+  [ngClass]="{ 'is-invalid': add.Email.touched && add.Email.errors}">
+                    <div class="text-danger" *ngIf="add.Email.touched && add.Email.errors">
+                        <span *ngIf="add.Email.errors.required">Required</span>
+                      </div><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" formControlName="Password" name="pwd" minlength="8" maxlength="8"
+  [ngClass]="{ 'is-invalid': add.Password.touched && add.Password.errors}">
+                    <div class="text-danger" *ngIf="add.Password.touched && add.Password.errors">
+                        <span *ngIf="add.Password.errors.required">Required</span>
+                      </div><br>
+  <input class="btn btn-primary" type="submit" (click)="submit()">
+  </form>
+
+
+  <table class="table text-center">
+    <thead>
+      <tr>
+        
+      <th>Name</th>
+      <th>Lastname</th>
+      <th>Email</th>
+      <th>Password</th>
+      <th>action</th>
+      </tr>
+    </thead>
+    <tbody  class="text-center">
+      <tr *ngFor="let list of studentData;let i=index">  
+        
+        <td>{{list.name}}</td>
+        <td>{{list.Lastname}}</td>
+        <td>{{list.Email}}</td>
+        <td>{{list.Password}}</td>
+        <td>
+          <i class="fa-regular fa-pen-to-square" (click)="editData(list.name,list.age)"></i>
+          <i class="fa-solid fa-eye-slash" (click)="removeData(i)"></i>
+          
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
