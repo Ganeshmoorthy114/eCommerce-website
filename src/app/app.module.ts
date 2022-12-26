@@ -36,7 +36,8 @@ const routes: Routes = [
 { path: 'Contactus', component: ContactusComponent},
 { path: 'Show', component: ShowComponent},
 { path: 'Under', component: UnderComponent},
-{ path: 'table', component: TableComponent}
+{ path: 'table', component: TableComponent},
+{ path: 'form', component: FormComponent}
 ]
 
 @NgModule({
