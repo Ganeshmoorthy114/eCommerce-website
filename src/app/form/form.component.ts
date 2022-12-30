@@ -27,7 +27,7 @@ export class FormComponent implements OnInit {
     
     if(parse!=null){
       this.studentData=parse
-debugger
+
     }
   }
   submit(){
