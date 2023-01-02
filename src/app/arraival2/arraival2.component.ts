@@ -41,7 +41,6 @@ fruit(){
     this.product =data
 
     this.editData(this.fruits)
-
 })
 }
   product: any = []
